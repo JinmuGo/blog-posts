@@ -1,2 +1,2 @@
 # blog-posts
-blog.jgo.me posts
+jgo.me posts
