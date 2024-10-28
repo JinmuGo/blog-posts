@@ -1,2 +1,2 @@
 # blog-posts
-jgo.me posts
+jinmu.me posts
