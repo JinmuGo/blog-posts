@@ -226,11 +226,11 @@ I was in charge of implementing the screen + setting up the deployment environme
 
 When implementing the screen and frontend logic, the other frontend developer helped me a lot in the areas where I was lacking, so I was able to develop quickly.
 
-During this development, I noticed that our service kept flickering every few seconds.
+During this development, I noticed that our service kept re-rendering every few seconds.
 I realized the problem at 4am and worked on it for about 2 hours, and then realized that our service was running in development mode.
 I thought this was the problem and wanted to change it to production mode, but I didn't understand Crampoline, so I asked my mentors for help.
 My objective was simple. Our service was developed with vite, and I wanted to change it from running in development mode to running in production mode.
-Eventually, with the help of the mentors, I was able to solve the problem and no more flickering occurred. The story goes like this
+Eventually, with the help of the mentors, I was able to solve the problem and no more re-rendering occurred. The story goes like this
 
 We had to find a way around the difficulty of deploying with crampolines, which is what we originally wanted to do, which was to spin up a static server with nginx.
 So the backend guy asked his mentor for help, and in the process, we ended up spinning up the frontend server in development mode.
