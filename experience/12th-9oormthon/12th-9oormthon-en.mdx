@@ -5,9 +5,13 @@ publishedAt: 2024-12-20T02:40:24.461Z
 modifiedAt: 2024-12-20T02:40:24.461Z
 draft: false
 tags:
-  - Hackathon
+  - hackathon
 mode: X
 preview: /banner/experience/12th-9oormthon.jpeg
+keywords:
+  - hackathon
+  - goormthon
+  - 12th goormthon
 ---
 
 ## Intro
@@ -18,12 +22,12 @@ In this post, I'm going to write about my first hackathon experience.
 This article is not only a personal recollection of my first hackathon, but also a helpful guide for prospective Goormoners. This article is organized as follows
 
 1. the application process
-2. Day Activities
+2. Day-by-day activities
     1. Day 0
-    2. Day 1
-    3. Day 2
-    4. Day 3
-    5. Day 4
+    2. day 1
+    3. day 2
+    4. day 3
+    5. day 4
 3. Outro
 ---
 
@@ -39,7 +43,7 @@ At 42seoul, I mainly collaborated with people who are in development or have lea
 
 *"Fast and accurate product development training"*
 
-In general, accuracy and speed are inversely proportional. However, in the real world, you have to set deadlines and develop products accordingly.
+In general, accuracy and speed are inversely proportional. However, in the real world, you need to set deadlines and develop products accordingly.
 I joined Goormtone to train on speed and accuracy in an intensive immersion program.
 
 ### Fill out the application
@@ -83,9 +87,9 @@ Since I will be giving a 3-minute pitch on Day 1 of Goormathon, I decided to cre
 I was not good at introducing myself, so I read the book 18 Seconds to Introduce Yourself [^self-pr-book], which I found in the library by searching for the keyword "introduction", and wrote a page based on it.
 I will write a review of the book later.
 
-When I wrote the page and prepared the script, I used the
+When writing the page and preparing the script, I used the
 <Callout type="info">.
-  The bio is not about introducing yourself, it's about introducing the future the listener can get by getting involved.
+  The bio is not about introducing yourself, it's about introducing the future the listener can gain from your involvement.
 </Callout>.
 
 I wrote it in a way that introduced my experience and what the listener could get out of it.
@@ -165,9 +169,9 @@ Afterward, I listened to other people's presentations and thought about who I wo
 
 #### teambuilding
 
-The team building time was like a market. There was no system, everyone just asked for their favorite teammates and formed a team.
-I had a list of people I wanted to work with beforehand, and luckily I didn't have much trouble organizing my team. If you're going to participate in Goormathon, I would recommend that you think about who you want to team up with and what ideas you want to bring to the table during the team building time.
-There is a certain amount of "luck" involved. We were often teamed up with people who were relatively close to us based on our initially randomized seats.
+The team building time was like a market. There was no system, everyone just asked for their teammates and formed a team.
+I had made a list of people I wanted to work with beforehand, and luckily I didn't have much trouble organizing the team. If you're going to participate in Goormathon, I would recommend that you think about who you want to team up with and what ideas you want to bring to the table during the team building time.
+There is a certain amount of "luck" that comes into play during this time. We were often teamed up with people who were relatively close to us based on our initially randomized seats.
 
 So if you have a goal or outcome you want, it's important to be proactive about it. I think you'll be more satisfied with the outcome if you take the initiative to build a team rather than hoping for teammates to come to you.
 
@@ -194,19 +198,19 @@ This was by far my favorite part of the hackathon. It was fun to talk to other p
 As the representative of Goormathon said, I think the best way to enjoy the hackathon is to network with others as much as possible at the beer party.
 I left the beer party a little early because I was anxious that the topic hadn't been selected yet, but I thought that if I had this opportunity next time, I would enjoy it fully and communicate with others.
 
-#### Decide on a topic
+#### Deciding on a topic
 
 After the beer party, I spent some time with my teammates to decide on a topic. We had to choose a topic before we started the hackathon.
 I think we talked about a lot of things. A service for seafarers. The connection between the elderly and the young. We discussed many topics, such as services using grandparents' homes, such as temple stays.
 However, we were rejected for various reasons.
 
-We chose our topic based on a newspaper article that was published on the day of the hackathon.
+We chose the topic based on a newspaper article that was published on the day of the hackathon.
 
 <Callout reference="When the elderly in Jeju feel happy" link="https://www.jejunews.com/news/articleView.html?idxno=2215293">
   In other words, the happiness of the elderly is that their children are healthy, their children are married and living in harmony...(interruption)
 
   In "life satisfaction", "**relationship with children**" has a greater impact than living standards or current life.
-  In short, older adults on Jeju Island have their children at the center of their happiness, but they are relationship-oriented, not dependent, and they explore independence and meaning in life through work, and they value their children's health and happiness more than their own.
+  In short, older adults on Jeju Island have their children at the center of their happiness, but they are relationship-oriented rather than dependent, explore independence and meaning in life through work, and value their children's health and happiness more than their own.
 </Callout>
 
 This sentence made us realize that there is a need for connectivity between offshore parents and mainland children, and to solve this problem, we decided to develop a platform for parents and children to communicate their current status with a few simple touches.
@@ -220,19 +224,19 @@ I decided to go back to my room and sleep for tomorrow. We shared our rooms with
 
 ### Day 3
 
-After the topic was selected, we had a meeting to develop a specific service, specifying the API and DB, and making a front-end development plan according to the designer's screen design.
+After the topic was selected, we had a meeting to develop a specific service, specifying the API, DB, and making a front-end development plan according to the designer's screen design.
 I was not familiar with libraries such as react-query and zustand yet, so I asked another front-end developer to focus on screen implementation + back-end API.
 I was in charge of implementing the screen + setting up the deployment environment for the front-end unit.
 
 When implementing the screen and frontend logic, the other frontend developer helped me a lot in the areas where I was lacking, so I was able to develop quickly.
 
 During this development, I noticed that our service kept re-rendering every few seconds.
-I realized the problem at 4am and worked on it for about 2 hours, and then realized that our service was running in development mode.
+I realized the problem around 4am and worked on it for about 2 hours until I realized that our service was running in development mode.
 I thought this was the problem and wanted to change it to production mode, but I didn't understand Crampoline, so I asked my mentors for help.
 My objective was simple. Our service was developed with vite, and I wanted to change it from running in development mode to running in production mode.
-Eventually, with the help of the mentors, I was able to solve the problem and no more re-rendering occurred. The story goes like this
+Eventually, with the help of my mentors, I was able to solve the problem and no more rendering occurred. The problem was as follows
 
-We had to find a way around the difficulty of deploying with crampolines, which is what we originally wanted to do, which was to spin up a static server with nginx.
+We had to find a way around the difficulty of crampolining our deployment, which was to spin up a static server with nginx, which is what we originally wanted to do.
 So the backend guy asked his mentor for help, and in the process, we ended up spinning up the frontend server in development mode.
 This wouldn't have happened if we had added a script in the package.json that would run in a more intuitive production mode, such as `start` instead of `preview`.
 This was a good reminder of the importance of abstraction. Somehow, once I solved the problem, I was able to focus on other development.
@@ -240,7 +244,7 @@ This was a good reminder of the importance of abstraction. Somehow, once I solve
 Meanwhile, the planners and designers were preparing for the presentation. I apologized to the planners and designers for not being able to participate much in the preparation process.
 The next day, the presentation and development were finished by almost 10 o'clock, so I went to the hostel to pack my things before 11 o'clock.
 
---- --- --- ------.
+--- --- --- ------
 
 A photo of Seongsan Sunrise Peak on Day 3 with the team members.
 
@@ -258,21 +262,21 @@ Our presentation strategy was to appeal to the emotions of parents and children 
 We presented the problem through news and statistics and introduced a service to solve it.
 
 However, the feedback from the presentation raised the question of whether the features and problem awareness we presented were **actually needed by users**.
-We thought a lot about it, but we regretted that we didn't make our logic sufficiently clear enough to explain it.
+We thought about it a lot, but we regretted that we didn't make our logic sufficiently clear enough to explain it.
 
 However, I believe that our service is about user experience, focusing on the keyword **aging**. And I think it was meaningful to focus on a simple user flow to address this.
-I'm proud of our team for coming up with this much in such a short time.
+I was proud of our team for coming up with such a great result in such a short time.
 
 ## Outro
 
 True to the values of Goormtone, I was able to experience and learn a lot in a very short period of time.
 
-As it was my first hackathon, there were a lot of inexperience, but fortunately, I was able to meet good teammates, build memories, and have fun together.
-We were so immersed in the development that we forgot to sleep at night, and we learned a lot in the process. I couldn't have done it without my team.
+As it was my first hackathon, I had a lot of inexperience, but fortunately, I was able to meet good teammates, build memories, and have a good time.
+We worked so hard that we forgot to sleep at night, and we learned a lot in the process. I couldn't have done it without my team.
 The first hackathon buttoned up so well that I can't wait to participate in the next one.
 
 There are many reasons to participate in a hackathon, but I think it's all about the experience.
-The process of intensely thinking and developing ideas with teammates is purely enjoyable. This fact alone makes it worthwhile.
+The process of intensely thinking and developing ideas with teammates is purely enjoyable. This fact alone made it worthwhile.
 So if you're thinking about participating in a hackathon, don't hesitate to do so.
 
 The networking with other cool people is a bonus.
